@@ -3,11 +3,11 @@
 **Saturday, April 25, 2026**
 
 **Format:** 15-minute presentation (strict) + 5-minute Q&A = 20 minutes per team
-**Two parallel rooms:** Isenberg 210 and Isenberg 106 · Judges split 2/2 across rooms
+**Two parallel rooms:** Isenberg 210 and Isenberg 106 · Judges split 2/2
 
 ---
 
-## Joint Sessions
+## Joint Morning
 
 | Time | Event |
 |------|-------|
@@ -19,25 +19,23 @@
 
 ## Room 210 — Track A
 
-| Time | Event |
-|------|-------|
-| **10:50–11:10** | **Team A1** |
-| **11:10–11:30** | **Team A2** |
-| **11:30–11:50** | **Team A3** |
-| **11:50–12:00** | Break |
-| **12:00–12:20** | **Team A4** |
-| **12:20–12:40** | **Team A5** |
+| Time | Team | Members |
+|------|------|---------|
+| **10:50–11:10** | **Team 1** | Andrew Tollman, Kyo Shibata |
+| **11:10–11:30** | **Team 3** | Ella Glasgow, Sohil Darisipudi, Zoey Schuler |
+| **11:30–11:50** | **Team 5** | Amalan Durairaj, Krish Patel, Varija Manglik, Astha Vaghasiya |
+| **11:50–12:00** | Break | — |
+| **12:00–12:20** | **Team 7** | Jaden Odorczuk, Tejas Naik |
 
 ## Room 106 — Track B
 
-| Time | Event |
-|------|-------|
-| **10:50–11:10** | **Team B1** |
-| **11:10–11:30** | **Team B2** |
-| **11:30–11:50** | **Team B3** |
-| **11:50–12:00** | Break |
-| **12:00–12:20** | **Team B4** |
-| **12:20–12:40** | **Team B5** |
+| Time | Team | Members |
+|------|------|---------|
+| **10:50–11:10** | **Team 2** | Sanjitha Satish Prabu, Iris Cabral, Divya Sivaram, Shruthi Kotha |
+| **11:10–11:30** | **Team 4** | Linh Vu, Huy Vu, Immar Sosa Sigaran |
+| **11:30–11:50** | **Team 8** | Fariha Nuzhat, Vyshnavi Siddula, Sakshi Agarwal, Anvitha Sathu |
+| **11:50–12:00** | Break | — |
+| **12:00–12:20** | **Team 9** | Phil Patterson, Balaji Pranav Reddy Kaja, Chirag Khattar, Sreyoshi |
 
 ---
 
@@ -45,8 +43,9 @@
 
 | Time | Event |
 |------|-------|
-| **12:40–1:30** | Judges' lunch & combined deliberation — Isenberg Atrium / foyer |
-| **1:30–2:25** | Open lunch (buffet in foyer; teams and audience eat) |
+| **~12:20–1:00** | Buffer (room overruns expected; rooms wrap as teams finish) |
+| **1:00** | Caterers arrive; buffet lunch set out in foyer |
+| **1:00–2:00** | Lunch — judges convene for combined deliberation; teams and audience eat |
 | **2:25–2:30** | Move to Isenberg 108 |
 | **2:30–3:25** | Consulting Panel — Isenberg 108 |
 | **3:30–4:00** | Closing Ceremony & Awards — Isenberg 108 |
@@ -66,7 +65,7 @@
 - Caterers arrive at **1:00 PM**; buffet set out in foyer at that time
 - Judges convene during lunch for combined scoring and winner selection
 - Teams and audience eat whenever convenient
-- **Note:** Room schedules show a 12:40 finish, but a 20–30 minute overrun is normal. The 1:00 lunch start absorbs this naturally — no need to rush teams
+- **Note:** Room schedules show a 12:20 finish, but a 20–40 minute overrun is normal. The 1:00 lunch start absorbs this naturally — no need to rush teams
 
 ## Venue
 
