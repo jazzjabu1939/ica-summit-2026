@@ -11,6 +11,8 @@
     --gray-bg: #f7f5f2;
     --text: #222;
     --muted: #666;
+    --track-a: #881c1c;
+    --track-b: #2c5e7e;
   }
   * { box-sizing: border-box; }
   body {
@@ -22,7 +24,7 @@
     line-height: 1.55;
   }
   .container {
-    max-width: 760px;
+    max-width: 820px;
     margin: 0 auto;
     background: #fff;
     padding: 2.5rem 2rem;
@@ -55,6 +57,13 @@
     text-align: center;
     letter-spacing: 0.02em;
   }
+  .format-banner small {
+    display: block;
+    font-weight: 400;
+    margin-top: 0.3rem;
+    font-size: 0.85rem;
+    opacity: 0.95;
+  }
   h2 {
     font-family: 'Open Sans', sans-serif;
     color: var(--maroon);
@@ -63,23 +72,39 @@
     border-bottom: 1px solid #ddd;
     padding-bottom: 0.35rem;
   }
+  .tracks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin: 1rem 0;
+  }
+  .track h3 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    color: #fff;
+    font-size: 1rem;
+  }
+  .track-a h3 { background: var(--track-a); }
+  .track-b h3 { background: var(--track-b); }
   table {
     width: 100%;
     border-collapse: collapse;
-    margin: 0.5rem 0 1rem 0;
+    margin: 0 0 1rem 0;
   }
   th {
     background: var(--maroon);
     color: #fff;
     text-align: left;
-    padding: 0.6rem 0.75rem;
+    padding: 0.55rem 0.7rem;
     font-family: 'Open Sans', sans-serif;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
+  .track-b th { background: var(--track-b); }
   td {
-    padding: 0.55rem 0.75rem;
+    padding: 0.5rem 0.7rem;
     border-bottom: 1px solid #eee;
-    font-size: 0.95rem;
+    font-size: 0.92rem;
   }
   tr:nth-child(even) td { background: #fafafa; }
   td.time {
@@ -87,9 +112,11 @@
     font-weight: 600;
     color: var(--maroon-dark);
     white-space: nowrap;
-    width: 32%;
+    width: 38%;
   }
+  .track-b td.time { color: var(--track-b); }
   tr.team td.time { color: var(--maroon); }
+  .track-b tr.team td.time { color: var(--track-b); }
   tr.team td.event { font-weight: 600; }
   tr.break td { background: #f0ebe6; font-style: italic; color: var(--muted); }
   ul { margin: 0.4rem 0 1rem 1.25rem; padding: 0; }
@@ -103,9 +130,13 @@
     text-align: center;
     font-style: italic;
   }
+  @media (max-width: 600px) {
+    .tracks { grid-template-columns: 1fr; }
+  }
   @media print {
     body { background: #fff; }
     .container { box-shadow: none; padding: 1rem; max-width: 100%; }
+    .tracks { grid-template-columns: 1fr 1fr; gap: 1rem; }
   }
 </style>
 </head>
@@ -114,14 +145,15 @@
 
 <header>
   <h1>Isenberg Consulting Academy<br>2026 Case Competition</h1>
-  <p class="subtitle">Saturday, April 25, 2026 · Isenberg Classroom 210</p>
+  <p class="subtitle">Saturday, April 25, 2026</p>
 </header>
 
 <div class="format-banner">
   15-minute presentation (strict) + 5-minute Q&amp;A · 20 minutes per team
+  <small>Two parallel rooms: Isenberg 210 (Track A) &amp; Isenberg 106 (Track B) · 5 teams each · Judges split 2/2</small>
 </div>
 
-<h2>Schedule</h2>
+<h2>Joint Morning</h2>
 <table>
   <thead>
     <tr><th>Time</th><th>Event</th></tr>
@@ -129,41 +161,74 @@
   <tbody>
     <tr><td class="time">9:15–9:55</td><td>Check-in and breakfast — Isenberg Atrium (with Capsim)</td></tr>
     <tr><td class="time">10:00–10:40</td><td>Opening Welcome &amp; Keynote — Isenberg 108 (with Capsim)</td></tr>
-    <tr><td class="time">10:40–10:50</td><td>Move to Isenberg 210</td></tr>
-    <tr class="team"><td class="time">10:50–11:10</td><td class="event">Team 1</td></tr>
-    <tr class="team"><td class="time">11:10–11:30</td><td class="event">Team 2</td></tr>
-    <tr class="team"><td class="time">11:30–11:50</td><td class="event">Team 3</td></tr>
-    <tr class="team"><td class="time">11:50–12:10</td><td class="event">Team 4</td></tr>
-    <tr class="team"><td class="time">12:10–12:30</td><td class="event">Team 5</td></tr>
-    <tr class="team"><td class="time">12:30–12:50</td><td class="event">Team 6</td></tr>
-    <tr class="team"><td class="time">12:50–1:10</td><td class="event">Team 7</td></tr>
-    <tr class="team"><td class="time">1:10–1:30</td><td class="event">Team 8</td></tr>
-    <tr class="break"><td class="time">1:30</td><td>Buffet lunch set out in the foyer</td></tr>
-    <tr class="team"><td class="time">1:30–1:50</td><td class="event">Team 9</td></tr>
-    <tr class="team"><td class="time">1:50–2:10</td><td class="event">Team 10</td></tr>
-    <tr><td class="time">2:10–2:40</td><td>Judges deliberate</td></tr>
-    <tr><td class="time">2:40–2:45</td><td>Move to Isenberg 108</td></tr>
-    <tr><td class="time">2:45–3:40</td><td>Consulting Panel — Isenberg 108</td></tr>
-    <tr><td class="time">3:45–4:15</td><td>Closing Ceremony &amp; Awards — Isenberg 108</td></tr>
+    <tr><td class="time">10:40–10:50</td><td>Move to assigned room (210 or 106)</td></tr>
+  </tbody>
+</table>
+
+<div class="tracks">
+
+  <div class="track track-a">
+    <h3>Room 210 — Track A</h3>
+    <table>
+      <thead><tr><th>Time</th><th>Event</th></tr></thead>
+      <tbody>
+        <tr class="team"><td class="time">10:50–11:10</td><td class="event">Team A1</td></tr>
+        <tr class="team"><td class="time">11:10–11:30</td><td class="event">Team A2</td></tr>
+        <tr class="team"><td class="time">11:30–11:50</td><td class="event">Team A3</td></tr>
+        <tr class="break"><td class="time">11:50–12:00</td><td>Break</td></tr>
+        <tr class="team"><td class="time">12:00–12:20</td><td class="event">Team A4</td></tr>
+        <tr class="team"><td class="time">12:20–12:40</td><td class="event">Team A5</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="track track-b">
+    <h3>Room 106 — Track B</h3>
+    <table>
+      <thead><tr><th>Time</th><th>Event</th></tr></thead>
+      <tbody>
+        <tr class="team"><td class="time">10:50–11:10</td><td class="event">Team B1</td></tr>
+        <tr class="team"><td class="time">11:10–11:30</td><td class="event">Team B2</td></tr>
+        <tr class="team"><td class="time">11:30–11:50</td><td class="event">Team B3</td></tr>
+        <tr class="break"><td class="time">11:50–12:00</td><td>Break</td></tr>
+        <tr class="team"><td class="time">12:00–12:20</td><td class="event">Team B4</td></tr>
+        <tr class="team"><td class="time">12:20–12:40</td><td class="event">Team B5</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<h2>Joint Afternoon</h2>
+<table>
+  <thead>
+    <tr><th>Time</th><th>Event</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="time">12:40–1:30</td><td>Judges' lunch &amp; combined deliberation</td></tr>
+    <tr><td class="time">1:30–2:25</td><td>Open lunch (buffet in foyer; teams and audience eat)</td></tr>
+    <tr><td class="time">2:25–2:30</td><td>Move to Isenberg 108</td></tr>
+    <tr><td class="time">2:30–3:25</td><td>Consulting Panel — Isenberg 108</td></tr>
+    <tr><td class="time">3:30–4:00</td><td>Closing Ceremony &amp; Awards — Isenberg 108</td></tr>
   </tbody>
 </table>
 
 <h2>Lunch &amp; Logistics</h2>
 <ul>
-  <li>Buffet-style lunch is set out in the foyer starting at <strong>1:30 PM</strong>.</li>
-  <li>Teams, audience, and judges eat <strong>whenever convenient</strong> — no formal break.</li>
-  <li>Judges grab food between presentations.</li>
-  <li>Presentations run continuously from 10:50 to 2:10.</li>
+  <li>Buffet-style lunch is set out in the foyer starting at <strong>12:40 PM</strong>.</li>
+  <li>Judges convene during lunch for combined scoring and winner selection.</li>
+  <li>Teams and audience eat whenever convenient.</li>
 </ul>
 
 <h2>Venue</h2>
 <ul>
   <li><strong>Check-in &amp; Breakfast:</strong> Isenberg Atrium</li>
   <li><strong>Opening &amp; Keynote:</strong> Isenberg 108</li>
-  <li><strong>Case Competition:</strong> Isenberg Classroom 210</li>
-  <li><strong>Lunch:</strong> Foyer (buffet, from 1:30 PM)</li>
-  <li><strong>Consulting Panel:</strong> Isenberg 108</li>
-  <li><strong>Closing Ceremony &amp; Awards:</strong> Isenberg 108</li>
+  <li><strong>Case Competition — Track A:</strong> Isenberg Classroom 210</li>
+  <li><strong>Case Competition — Track B:</strong> Isenberg Classroom 106</li>
+  <li><strong>Lunch:</strong> Foyer (buffet, from 12:40 PM)</li>
+  <li><strong>Consulting Panel:</strong> Isenberg 108 (2:30–3:25)</li>
+  <li><strong>Closing Ceremony &amp; Awards:</strong> Isenberg 108 (3:30–4:00)</li>
 </ul>
 
 <h2>Contact</h2>
