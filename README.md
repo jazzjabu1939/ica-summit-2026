@@ -59,13 +59,14 @@
 - **Q&A:** 5 minutes
 - **Transition:** Built into the 20-minute slot
 - **Judges per room:** 2 (panel of 4 split across the two tracks)
-- **Combined deliberation:** All four judges meet over lunch (12:40–1:30) to compare scores and select winners
+- **Combined deliberation:** All four judges meet over lunch (1:00–2:00) to compare scores and select winners
 
 ## Lunch & Logistics
 
-- Buffet-style lunch is set out in the foyer starting at **12:40 PM**
+- Caterers arrive at **1:00 PM**; buffet set out in foyer at that time
 - Judges convene during lunch for combined scoring and winner selection
-- Teams, audience eat whenever convenient
+- Teams and audience eat whenever convenient
+- **Note:** Room schedules show a 12:40 finish, but a 20–30 minute overrun is normal. The 1:00 lunch start absorbs this naturally — no need to rush teams
 
 ## Venue
 
@@ -73,7 +74,7 @@
 - **Opening & Keynote:** Isenberg 108
 - **Case Competition — Track A:** Isenberg Classroom 210
 - **Case Competition — Track B:** Isenberg Classroom 106
-- **Lunch:** Foyer (buffet, from 12:40 PM)
+- **Lunch:** Foyer (buffet, caterers arrive 1:00 PM)
 - **Consulting Panel:** Isenberg 108 (2:30–3:25)
 - **Closing Ceremony & Awards:** Isenberg 108 (3:30–4:00)
 
