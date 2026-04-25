@@ -23,10 +23,10 @@
 | **1:10–1:30** | **Team 8** |
 | **1:30–1:50** | **Team 9** |
 | **1:50–2:10** | **Team 10** |
-| **2:10–2:25** | Judges deliberate |
-| **2:25–2:30** | Move to Isenberg 108 |
-| **2:30–3:25** | Consulting Panel — Isenberg 108 |
-| **3:30–4:00** | Closing Ceremony & Awards — Isenberg 108 |
+| **2:10–2:40** | Judges deliberate |
+| **2:40–2:45** | Move to Isenberg 108 |
+| **2:45–3:40** | Consulting Panel — Isenberg 108 |
+| **3:45–4:15** | Closing Ceremony & Awards — Isenberg 108 |
 
 ---
 
